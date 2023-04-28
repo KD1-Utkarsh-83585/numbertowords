@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    /> 
+
+    <script src="./number_to_words.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid d-flex justify-content-center pt-4">
+      <div class="card w-50">
+        <div class="card-header text-center bg-danger text-white">
+          Number to Word Converter
+        </div>
+
+        <div class="card-body text-center">
+          <p>Enter Number between 1 to 999</p>
+          <div class="d-flex justify-content-center">
+            <input type="text" id="text-box" class="form-control w-50 mb-4" />
+          </div>
+          <p class="number-word" id="result-word"></p>
+        </div>
+
+        <div class="card-footer">
+          <div class="button-container text-center">
+            <button class="btn btn-danger" onclick="buttonClick()">Hit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
